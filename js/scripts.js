@@ -14,6 +14,13 @@ $('a.gallery').featherlightGallery({
 		iframeHeight: 600
 	});
 
+$('.single-item').slick({
+	autoplay: true,
+	autoplaySpeed: 4000,
+	fade: true,
+	infinite: true,
+	arrows: false
+});
 
 $("#link-cws").click(function(){
 	$('html, body').animate({
