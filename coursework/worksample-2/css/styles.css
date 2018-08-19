@@ -1,0 +1,180 @@
+html, body {
+
+}
+
+header {
+	background-color: black;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+	border-bottom: solid 3px yellow;
+}
+
+header h2 {
+	float: left;
+	color: yellow;
+	font-family: "Merriweather";
+	margin: 1.5rem 0;
+	line-height: 3rem;
+}
+
+header nav {
+	float:right;
+	color: white;
+	margin: 1.5rem 0;
+	line-height: 3rem;
+}
+
+header ul {
+	padding-left: 0;
+}
+
+header li {
+	display: inline-block;
+	/*width: 140px;*/
+	margin-right: 30px;
+	text-align: center;
+}
+
+.nav-bold {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#hamburger {
+	display: none;
+}
+/* --- Buttons --- */
+button {
+  	font-size: 1rem;
+  	border-radius: 5px;
+  	font-weight: 700;
+  	font-family: 'Oswald', sans-serif;
+  	border: 0;
+  	text-transform: uppercase;
+  	margin: 0 auto;
+}
+
+.yellow-button {
+	background-color: yellow;
+	padding: 15px 50px;
+}
+
+.grey-button {
+	background-color: #c6c6c6;
+	width: 200px;
+	padding: 15px 0;
+}
+/* --- End of Buttons --- */
+
+/* --- Grey Block --- */
+.grey-block {
+	background-color: #c6c6c6;
+	font-family: "Merriweather";
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 1.5rem 0;
+	line-height: 3rem;
+	text-align: center;
+}
+
+#taste {
+	color: grey;
+	text-decoration: line-through;
+}
+
+#are {
+	border-bottom: solid yellow;
+}
+
+/* --- End of Grey Block ---*/
+
+/* --- Meet your match ---*/
+.meet-your-match {
+	background: url(../images/coworking.jpg) no-repeat center center;
+	background-size: cover;
+  	padding: 30px 0;
+}
+
+.white-box {
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px;
+	font-size: 1.2rem;
+}
+
+/* --- End of Meet your match ---*/
+
+/* --- Links --- */
+
+.links {
+	padding: 30px 0;
+}
+
+.border-after {
+	border-right: solid 2px #c6c6c6;
+}
+
+.pad-fix {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* --- End of Links --- */
+
+/* ----- Footer ----- */
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 0.7rem 0;
+}
+
+/* ----- End of Footer ----- */
+
+@media (max-width:767px) {
+	header li {
+		display: block;
+		text-align: left;
+	}
+	header h2 {
+		float: none;
+	}
+
+	header nav {
+		float:none;
+		overflow: hidden;
+		max-height: 0;
+		transition: 0.5s;
+		/*background-color: orange;*/
+	}
+
+	header nav.open {
+		max-height: 200px;
+	}
+
+	.border-after {
+		border-right: 0;
+		border-bottom: solid 2px #c6c6c6;
+	}
+
+	#hamburger {
+		display: block;
+		font-size: 2.5rem;
+		float: right;
+		cursor: pointer;
+		color: #FFF;
+	}
+}
+/*
+
+xs = 576
+
+sm = 768
+
+md = 992
+
+lg = 
+
+
+
+
+*/

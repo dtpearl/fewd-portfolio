@@ -1,0 +1,292 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* ----- Color Pallet ----- 
+
+#0b1c51
+#a8b0c8
+#6679b6
+
+*/
+.container {
+	max-width: 1440px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* ----- Header ----- */
+header {
+	background-color: #0b1c51;
+	color: #a8b0c8;
+	font-family: "Rubik", sans-serif;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+header h2 {
+	float: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	padding-left: 0;
+	margin-bottom: 0;	
+}
+nav li {
+	display: inline-block;
+	margin-right: 30px;
+	cursor: pointer;	
+}
+/*header ul {
+	padding-left: 0;
+	margin: 0;
+}
+
+header li {
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	text-align: center;
+}*/
+
+#hamburger {
+	display: none;
+}
+
+/* ----- End of Header ----- */
+
+/* ----- Top image ----- */
+
+.top-photo {
+	position: relative;
+	background: url(../images/dave-background.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 200px;
+	background-attachment: fixed;
+}
+
+/* ----- End of Top image ----- */
+
+/* ----- Dave quote ----- */
+
+.dave-quote {
+	background-color: #6679b6;
+	color: #a8b0c8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+blockquote {
+/*	margin-top: 4rem;
+	margin-bottom: 4rem;*/
+	margin: 4rem 80px;
+	font-size: 2rem;
+}
+
+.quote-att {
+	float: right;
+	font-weight: bold;
+}
+/* ----- End of Dave quote ----- */
+
+/* ----- Coursework Samples ----- */
+.coursework-samples {
+	background-color: #a8b0c8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.square-img {
+	width: 100%;
+}
+
+.pad-zero{
+	padding-left: 0;
+	padding-right: 0;
+}
+/* ----- End of Coursework Samples ----- */
+
+/* ----- Jay quote ----- */
+
+.jay-quote {
+	background-color: #6679b6;
+	color: #a8b0c8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* ----- End of Jay quote ----- */
+
+/* ----- My new skills ----- */
+.my-new-skills {
+	background-color: #a8b0c8;
+}
+.my-new-skills h3 {
+	text-align: center;
+}
+
+.circle-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: solid 2px #0b1c51;
+}
+
+/* ----- End of My new skills ----- */
+
+/* ----- Contact me ----- */
+
+.contact-me {
+	background-color: #a68e72;
+}
+
+input {
+	padding: 12px;
+	width: 100%;
+	background-color: #a8b0c8;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+/*#text-message {
+	height: 150px;
+}*/
+
+textarea {
+	padding: 12px;
+	width: 100%;
+	background-color: #a8b0c8;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	height: 150px;
+}
+/* ----- End of Contact me ----- */
+
+/* ----- Footer ----- */
+
+footer {
+	background-color: #0b1c51;
+	color: #a8b0c8;
+}
+
+footer img {
+	height: 2.5rem;
+}
+/* ----- End of Footer ----- */
+
+/* ----- Custom CSS for Featherlight Lightbox ----- */
+
+.featherlight-previous, .featherlight-next {
+	top: 100px;
+	bottom: 100px;
+}
+
+.featherlight-previous span {
+	color: #0b1c51;
+}
+
+.featherlight-next span {
+	color: #0b1c51;
+}
+
+/* ----- End of Custom CSS for Featherlight Lightbox ----- */
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	html{
+		/*font-size: 2rem;*/
+	}
+
+	body {
+		
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+		html{
+		/*font-size: 1.7rem;*/
+	}
+
+	body {
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+		html{
+		/*font-size: 1.5rem;*/
+	}
+
+	body {
+		
+	}
+	
+	header li {
+		display: block;
+		text-align: left;
+	}
+	header h2 {
+		float: none;
+	}
+
+	header nav {
+			float:none;
+			overflow: hidden;
+			max-height: 0;
+			transition: 0.5s;
+	}
+
+	header nav.open {
+		max-height: 200px;
+	}
+
+	#hamburger {
+		display: block;
+		font-size: 2.5rem;
+		float: right;
+		cursor: pointer;
+	}
+
+	.border-after {
+		padding-bottom: 15px;
+		border-bottom: dotted 1px #000;
+	}
+
+	.square-img {
+		padding-top: 15px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+		html{
+		/*font-size: 1.2rem;*/
+	}
+
+	body {
+		
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+		html{
+		/*font-size: 1rem;*/
+	}
+
+	body {
+		
+	}    
+}

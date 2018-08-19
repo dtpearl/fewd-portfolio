@@ -1,0 +1,34 @@
+.scoreboard{
+  background:#ccc;
+  padding:40px;
+  border-radius:20px;
+  width:700px;
+  font-family: Verdana;
+  text-align:center;
+  border:solid 4px;
+  margin: 50px auto;
+}
+.box{
+  vertical-align:top;
+  display:inline-block;
+}
+.panda{
+
+}
+.panda img{
+  width:150px;
+}
+.scoreTitle{
+  width:530px;
+  text-aligh:center;
+  font-weight:bold;
+}
+.p1, .p2{
+  width:48%;
+}
+.title{
+  font-size:32px
+}
+span{
+  font-size:50px
+}

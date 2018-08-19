@@ -1,0 +1,81 @@
+html, body {
+
+}
+
+
+header {
+	background-color: yellow;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+
+header h1 {
+	float: left;
+}
+
+header nav {
+	float:right;
+}
+
+header ul {
+	padding-left: 0;
+}
+
+header li {
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+}
+
+#hamburger {
+	display: none;
+}
+
+@media (max-width:801px) {
+	header li {
+		display: block;
+		text-align: left;
+	}
+	header h1 {
+		float: none;
+	}
+
+	header nav {
+		float:none;
+		overflow: hidden;
+		max-height: 0;
+		transition: 0.5s;
+		/*background-color: orange;*/
+	}
+
+	header nav.open {
+		max-height: 200px;
+	}
+	
+	#hamburger {
+		display: block;
+		font-size: 2.5rem;
+		float: right;
+		cursor: pointer;
+	}
+
+	#hamburger img {
+		height: 65px;
+	}
+}
+/*
+
+xs = 576
+
+sm = 768
+
+md = 992
+
+lg = 
+
+
+
+
+*/

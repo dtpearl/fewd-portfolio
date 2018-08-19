@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.grid-box {
+  height:100px;
+  width:100px;
+/*   border: solid 1px #000; */
+  font-size: 42px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  background: url(../images/grass.png) no-repeat center center;
+}
+
+.grid-box img {
+  width: 98px;
+  vertical-align: bottom;
+  opacity: 0;
+  
+}
+.game {
+  width: 702px;
+  border-left: solid 1px #27a7d8;
+  border-right: solid 1px #ff9a00;
+}
+
+.active img {
+  opacity: 1;
+}
+
+.right{
+  transform:scaleX(-1);
+}
