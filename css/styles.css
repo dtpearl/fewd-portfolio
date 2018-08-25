@@ -274,6 +274,14 @@ footer img {
 	body {
 		
 	}
+
+	#socials {
+		display: none;
+	}
+
+	footer li {
+		margin-right: 10px;
+	}
 }
 
 /* Custom, iPhone Retina */ 
@@ -285,4 +293,6 @@ footer img {
 	body {
 		
 	}    
+
+
 }
