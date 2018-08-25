@@ -10,8 +10,7 @@ $('a.gallery').featherlightGallery({
 		nextIcon: '»',
 		galleryFadeIn: 300,
 		openSpeed: 300,
-		iframeMaxWidth: '80%',
-		iframeWidth: 2000,
+		iframeWidth: 800,
 		iframeHeight: 600
 	});
 
