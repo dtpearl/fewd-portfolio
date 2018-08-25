@@ -18,6 +18,7 @@ $('.single-item').slick({
 	autoplay: true,
 	autoplaySpeed: 4000,
 	fade: true,
+	speed: 1000,
 	infinite: true,
 	arrows: false
 });

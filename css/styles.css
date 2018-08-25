@@ -170,6 +170,14 @@ textarea {
 	margin-bottom: 15px;
 	height: 150px;
 }
+
+button {
+	padding: 10px;
+	background: #6679b6;
+	border-radius: 10px;
+	width: 100px;
+	cursor: pointer;
+}
 /* ----- End of Contact me ----- */
 
 /* ----- Footer ----- */
@@ -185,6 +193,12 @@ footer img {
 /* ----- End of Footer ----- */
 
 /* ----- Custom CSS for Featherlight Lightbox ----- */
+
+.featherlight-previous, .featherlight-next {
+	top: 100px;
+	bottom: 100px;
+	background: rgba(0,0,0,0);
+}
 
 .featherlight-previous:hover, .featherlight-next:hover {
 	top: 100px;
