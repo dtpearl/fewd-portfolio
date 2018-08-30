@@ -44,17 +44,6 @@ nav li {
 	margin-right: 30px;
 	cursor: pointer;	
 }
-/*header ul {
-	padding-left: 0;
-	margin: 0;
-}
-
-header li {
-	display: inline-block;
-	float: right;
-	margin-right: 30px;
-	text-align: center;
-}*/
 
 #hamburger {
 	display: none;
@@ -84,8 +73,6 @@ header li {
 }
 
 blockquote {
-/*	margin-top: 4rem;
-	margin-bottom: 4rem;*/
 	margin: 4rem 80px;
 	font-size: 2rem;
 }
@@ -191,6 +178,23 @@ footer img {
 	height: 2.5rem;
 }
 /* ----- End of Footer ----- */
+
+/* ----- Scroll to top button ----- */
+
+#scrollHome {
+	padding: 10px;
+	background: #0b1c51;
+	color: #a8b0c8;
+	border-radius: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position:fixed;
+  	bottom:85px;
+  	right:40px;
+}
+
+/* ----- End of Scroll to top button ----- */
 
 /* ----- Custom CSS for Featherlight Lightbox ----- */
 
