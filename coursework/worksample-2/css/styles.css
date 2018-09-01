@@ -130,7 +130,7 @@ footer {
 
 /* ----- End of Footer ----- */
 
-@media (max-width:767px) {
+@media (max-width:801px) {
 	header li {
 		display: block;
 		text-align: left;

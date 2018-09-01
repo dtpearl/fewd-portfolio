@@ -133,6 +133,17 @@ blockquote {
 	border: solid 2px #0b1c51;
 }
 
+.circle-image:hover {
+	display: block;
+	width: 154px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	border: solid 2px #0b1c51;
+	transform: scale(1.05);
+	transition: 500;
+}
+
 /* ----- End of My new skills ----- */
 
 /* ----- Contact me ----- */
@@ -165,6 +176,10 @@ button {
 	width: 100px;
 	cursor: pointer;
 }
+
+button:focus {
+	outline: 0px;
+}
 /* ----- End of Contact me ----- */
 
 /* ----- Footer ----- */
@@ -186,12 +201,14 @@ footer img {
 	background: #0b1c51;
 	color: #a8b0c8;
 	border-radius: 10px;
+	border: none;
 	width: 30px;
 	height: 30px;
 	cursor: pointer;
-	position:fixed;
-  	bottom:85px;
-  	right:40px;
+	position: fixed;
+  	bottom: 90px;
+  	right: 40px;
+
 }
 
 /* ----- End of Scroll to top button ----- */
