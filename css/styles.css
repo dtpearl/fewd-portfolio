@@ -298,6 +298,10 @@ footer img {
 		cursor: pointer;
 	}
 
+	.top-photo {
+		background-attachment: scroll;
+	}
+
 	.border-after {
 		padding-bottom: 15px;
 		/*border-bottom: solid 1px #000;*/
